@@ -1,0 +1,1175 @@
+fileFormatVersion: 2
+guid: 81efa5a5375ec4a09a98840158234f66
+timeCreated: 1477119240
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: arm_L
+    100002: arm_L.001
+    100004: arm_L.002
+    100006: arm_L.003
+    100008: arm_L.004
+    100010: arm_L.004_end
+    100012: arm_L.005
+    100014: arm_L.006
+    100016: arm_L.007
+    100018: arm_L.008
+    100020: arm_L.008_end
+    100022: arm_L.009
+    100024: arm_L.010
+    100026: arm_L.011
+    100028: arm_L.012
+    100030: arm_L.012_end
+    100032: arm_R
+    100034: arm_R.001
+    100036: arm_R.002
+    100038: arm_R.003
+    100040: arm_R.004
+    100042: arm_R.004_end
+    100044: arm_R.005
+    100046: arm_R.006
+    100048: arm_R.007
+    100050: arm_R.008
+    100052: arm_R.008_end
+    100054: arm_R.009
+    100056: arm_R.010
+    100058: arm_R.011
+    100060: arm_R.012
+    100062: arm_R.012_end
+    100064: armature
+    100066: beak1
+    100068: beak1_end
+    100070: beak2
+    100072: beak2_end
+    100074: body
+    100076: body.001
+    100078: foot1_L
+    100080: foot1_R
+    100082: foot2_L
+    100084: foot2_R
+    100086: foot3_L
+    100088: foot3_L_end
+    100090: foot3_R
+    100092: foot3_R_end
+    100094: foot4_L
+    100096: foot4_R
+    100098: foot5_L
+    100100: foot5_R
+    100102: foot6_L
+    100104: foot6_L_end
+    100106: foot6_R
+    100108: foot6_R_end
+    100110: head1
+    100112: head2
+    100114: leg1_L
+    100116: leg1_R
+    100118: leg2_L
+    100120: leg2_R
+    100122: master
+    100124: mouth
+    100126: neck1
+    100128: neck2
+    100130: neck3
+    100132: neck4
+    100134: neck5
+    100136: //RootNode
+    100138: spine-1
+    100140: spine-2
+    100142: spine1
+    100144: spine2
+    100146: tale1
+    100148: tale2
+    100150: tale2_end
+    100152: waist_L
+    100154: waist_R
+    100156: wing
+    400000: arm_L
+    400002: arm_L.001
+    400004: arm_L.002
+    400006: arm_L.003
+    400008: arm_L.004
+    400010: arm_L.004_end
+    400012: arm_L.005
+    400014: arm_L.006
+    400016: arm_L.007
+    400018: arm_L.008
+    400020: arm_L.008_end
+    400022: arm_L.009
+    400024: arm_L.010
+    400026: arm_L.011
+    400028: arm_L.012
+    400030: arm_L.012_end
+    400032: arm_R
+    400034: arm_R.001
+    400036: arm_R.002
+    400038: arm_R.003
+    400040: arm_R.004
+    400042: arm_R.004_end
+    400044: arm_R.005
+    400046: arm_R.006
+    400048: arm_R.007
+    400050: arm_R.008
+    400052: arm_R.008_end
+    400054: arm_R.009
+    400056: arm_R.010
+    400058: arm_R.011
+    400060: arm_R.012
+    400062: arm_R.012_end
+    400064: armature
+    400066: beak1
+    400068: beak1_end
+    400070: beak2
+    400072: beak2_end
+    400074: body
+    400076: body.001
+    400078: foot1_L
+    400080: foot1_R
+    400082: foot2_L
+    400084: foot2_R
+    400086: foot3_L
+    400088: foot3_L_end
+    400090: foot3_R
+    400092: foot3_R_end
+    400094: foot4_L
+    400096: foot4_R
+    400098: foot5_L
+    400100: foot5_R
+    400102: foot6_L
+    400104: foot6_L_end
+    400106: foot6_R
+    400108: foot6_R_end
+    400110: head1
+    400112: head2
+    400114: leg1_L
+    400116: leg1_R
+    400118: leg2_L
+    400120: leg2_R
+    400122: master
+    400124: mouth
+    400126: neck1
+    400128: neck2
+    400130: neck3
+    400132: neck4
+    400134: neck5
+    400136: //RootNode
+    400138: spine-1
+    400140: spine-2
+    400142: spine1
+    400144: spine2
+    400146: tale1
+    400148: tale2
+    400150: tale2_end
+    400152: waist_L
+    400154: waist_R
+    400156: wing
+    4300000: body.001
+    4300002: wing
+    4300004: body
+    7400000: armature|run
+    7400002: armature|walk
+    7400004: body.001|walk
+    7400006: wing|walk
+    7400008: body|walk
+    9500000: //RootNode
+    13700000: body
+    13700002: body.001
+    13700004: wing
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: armature|run
+      takeName: armature|run
+      firstFrame: 0
+      lastFrame: 20
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: armature
+        weight: 1
+      - path: armature/master
+        weight: 1
+      - path: armature/master/spine-1
+        weight: 1
+      - path: armature/master/spine-1/spine-2
+        weight: 1
+      - path: armature/master/spine-1/spine-2/tale1
+        weight: 1
+      - path: armature/master/spine-1/spine-2/tale1/tale2
+        weight: 1
+      - path: armature/master/spine-1/spine-2/tale1/tale2/tale2_end
+        weight: 1
+      - path: armature/master/spine1
+        weight: 1
+      - path: armature/master/spine1/spine2
+        weight: 1
+      - path: armature/master/spine1/spine2/arm_L
+        weight: 1
+      - path: armature/master/spine1/spine2/arm_L/arm_L.001
+        weight: 1
+      - path: armature/master/spine1/spine2/arm_L/arm_L.001/arm_L.002
+        weight: 1
+      - path: armature/master/spine1/spine2/arm_L/arm_L.001/arm_L.002/arm_L.003
+        weight: 1
+      - path: armature/master/spine1/spine2/arm_L/arm_L.001/arm_L.002/arm_L.003/arm_L.004
+        weight: 1
+      - path: armature/master/spine1/spine2/arm_L/arm_L.001/arm_L.002/arm_L.003/arm_L.004/arm_L.004_end
+        weight: 1
+      - path: armature/master/spine1/spine2/arm_L/arm_L.005
+        weight: 1
+      - path: armature/master/spine1/spine2/arm_L/arm_L.005/arm_L.006
+        weight: 1
+      - path: armature/master/spine1/spine2/arm_L/arm_L.005/arm_L.006/arm_L.007
+        weight: 1
+      - path: armature/master/spine1/spine2/arm_L/arm_L.005/arm_L.006/arm_L.007/arm_L.008
+        weight: 1
+      - path: armature/master/spine1/spine2/arm_L/arm_L.005/arm_L.006/arm_L.007/arm_L.008/arm_L.008_end
+        weight: 1
+      - path: armature/master/spine1/spine2/arm_L/arm_L.009
+        weight: 1
+      - path: armature/master/spine1/spine2/arm_L/arm_L.009/arm_L.010
+        weight: 1
+      - path: armature/master/spine1/spine2/arm_L/arm_L.009/arm_L.010/arm_L.011
+        weight: 1
+      - path: armature/master/spine1/spine2/arm_L/arm_L.009/arm_L.010/arm_L.011/arm_L.012
+        weight: 1
+      - path: armature/master/spine1/spine2/arm_L/arm_L.009/arm_L.010/arm_L.011/arm_L.012/arm_L.012_end
+        weight: 1
+      - path: armature/master/spine1/spine2/arm_R
+        weight: 1
+      - path: armature/master/spine1/spine2/arm_R/arm_R.001
+        weight: 1
+      - path: armature/master/spine1/spine2/arm_R/arm_R.001/arm_R.002
+        weight: 1
+      - path: armature/master/spine1/spine2/arm_R/arm_R.001/arm_R.002/arm_R.003
+        weight: 1
+      - path: armature/master/spine1/spine2/arm_R/arm_R.001/arm_R.002/arm_R.003/arm_R.004
+        weight: 1
+      - path: armature/master/spine1/spine2/arm_R/arm_R.001/arm_R.002/arm_R.003/arm_R.004/arm_R.004_end
+        weight: 1
+      - path: armature/master/spine1/spine2/arm_R/arm_R.005
+        weight: 1
+      - path: armature/master/spine1/spine2/arm_R/arm_R.005/arm_R.006
+        weight: 1
+      - path: armature/master/spine1/spine2/arm_R/arm_R.005/arm_R.006/arm_R.007
+        weight: 1
+      - path: armature/master/spine1/spine2/arm_R/arm_R.005/arm_R.006/arm_R.007/arm_R.008
+        weight: 1
+      - path: armature/master/spine1/spine2/arm_R/arm_R.005/arm_R.006/arm_R.007/arm_R.008/arm_R.008_end
+        weight: 1
+      - path: armature/master/spine1/spine2/arm_R/arm_R.009
+        weight: 1
+      - path: armature/master/spine1/spine2/arm_R/arm_R.009/arm_R.010
+        weight: 1
+      - path: armature/master/spine1/spine2/arm_R/arm_R.009/arm_R.010/arm_R.011
+        weight: 1
+      - path: armature/master/spine1/spine2/arm_R/arm_R.009/arm_R.010/arm_R.011/arm_R.012
+        weight: 1
+      - path: armature/master/spine1/spine2/arm_R/arm_R.009/arm_R.010/arm_R.011/arm_R.012/arm_R.012_end
+        weight: 1
+      - path: armature/master/spine1/spine2/neck1
+        weight: 1
+      - path: armature/master/spine1/spine2/neck1/neck2
+        weight: 1
+      - path: armature/master/spine1/spine2/neck1/neck2/neck3
+        weight: 1
+      - path: armature/master/spine1/spine2/neck1/neck2/neck3/neck4
+        weight: 1
+      - path: armature/master/spine1/spine2/neck1/neck2/neck3/neck4/neck5
+        weight: 1
+      - path: armature/master/spine1/spine2/neck1/neck2/neck3/neck4/neck5/head1
+        weight: 1
+      - path: armature/master/spine1/spine2/neck1/neck2/neck3/neck4/neck5/head1/head2
+        weight: 1
+      - path: armature/master/spine1/spine2/neck1/neck2/neck3/neck4/neck5/head1/head2/beak1
+        weight: 1
+      - path: armature/master/spine1/spine2/neck1/neck2/neck3/neck4/neck5/head1/head2/beak1/beak1_end
+        weight: 1
+      - path: armature/master/spine1/spine2/neck1/neck2/neck3/neck4/neck5/head1/head2/mouth
+        weight: 1
+      - path: armature/master/spine1/spine2/neck1/neck2/neck3/neck4/neck5/head1/head2/mouth/beak2
+        weight: 1
+      - path: armature/master/spine1/spine2/neck1/neck2/neck3/neck4/neck5/head1/head2/mouth/beak2/beak2_end
+        weight: 1
+      - path: armature/master/waist_L
+        weight: 1
+      - path: armature/master/waist_L/leg1_L
+        weight: 1
+      - path: armature/master/waist_L/leg1_L/leg2_L
+        weight: 1
+      - path: armature/master/waist_L/leg1_L/leg2_L/foot1_L
+        weight: 1
+      - path: armature/master/waist_L/leg1_L/leg2_L/foot1_L/foot2_L
+        weight: 1
+      - path: armature/master/waist_L/leg1_L/leg2_L/foot1_L/foot2_L/foot3_L
+        weight: 1
+      - path: armature/master/waist_L/leg1_L/leg2_L/foot1_L/foot2_L/foot3_L/foot3_L_end
+        weight: 1
+      - path: armature/master/waist_L/leg1_L/leg2_L/foot4_L
+        weight: 1
+      - path: armature/master/waist_L/leg1_L/leg2_L/foot4_L/foot5_L
+        weight: 1
+      - path: armature/master/waist_L/leg1_L/leg2_L/foot4_L/foot5_L/foot6_L
+        weight: 1
+      - path: armature/master/waist_L/leg1_L/leg2_L/foot4_L/foot5_L/foot6_L/foot6_L_end
+        weight: 1
+      - path: armature/master/waist_R
+        weight: 1
+      - path: armature/master/waist_R/leg1_R
+        weight: 1
+      - path: armature/master/waist_R/leg1_R/leg2_R
+        weight: 1
+      - path: armature/master/waist_R/leg1_R/leg2_R/foot1_R
+        weight: 1
+      - path: armature/master/waist_R/leg1_R/leg2_R/foot1_R/foot2_R
+        weight: 1
+      - path: armature/master/waist_R/leg1_R/leg2_R/foot1_R/foot2_R/foot3_R
+        weight: 1
+      - path: armature/master/waist_R/leg1_R/leg2_R/foot1_R/foot2_R/foot3_R/foot3_R_end
+        weight: 1
+      - path: armature/master/waist_R/leg1_R/leg2_R/foot4_R
+        weight: 1
+      - path: armature/master/waist_R/leg1_R/leg2_R/foot4_R/foot5_R
+        weight: 1
+      - path: armature/master/waist_R/leg1_R/leg2_R/foot4_R/foot5_R/foot6_R
+        weight: 1
+      - path: armature/master/waist_R/leg1_R/leg2_R/foot4_R/foot5_R/foot6_R/foot6_R_end
+        weight: 1
+      - path: body
+        weight: 1
+      - path: body.001
+        weight: 1
+      - path: wing
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: armature|walk
+      takeName: armature|walk
+      firstFrame: 0
+      lastFrame: 1
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: armature
+        weight: 1
+      - path: armature/master
+        weight: 1
+      - path: armature/master/spine-1
+        weight: 1
+      - path: armature/master/spine-1/spine-2
+        weight: 1
+      - path: armature/master/spine-1/spine-2/tale1
+        weight: 1
+      - path: armature/master/spine-1/spine-2/tale1/tale2
+        weight: 1
+      - path: armature/master/spine-1/spine-2/tale1/tale2/tale2_end
+        weight: 1
+      - path: armature/master/spine1
+        weight: 1
+      - path: armature/master/spine1/spine2
+        weight: 1
+      - path: armature/master/spine1/spine2/arm_L
+        weight: 1
+      - path: armature/master/spine1/spine2/arm_L/arm_L.001
+        weight: 1
+      - path: armature/master/spine1/spine2/arm_L/arm_L.001/arm_L.002
+        weight: 1
+      - path: armature/master/spine1/spine2/arm_L/arm_L.001/arm_L.002/arm_L.003
+        weight: 1
+      - path: armature/master/spine1/spine2/arm_L/arm_L.001/arm_L.002/arm_L.003/arm_L.004
+        weight: 1
+      - path: armature/master/spine1/spine2/arm_L/arm_L.001/arm_L.002/arm_L.003/arm_L.004/arm_L.004_end
+        weight: 1
+      - path: armature/master/spine1/spine2/arm_L/arm_L.005
+        weight: 1
+      - path: armature/master/spine1/spine2/arm_L/arm_L.005/arm_L.006
+        weight: 1
+      - path: armature/master/spine1/spine2/arm_L/arm_L.005/arm_L.006/arm_L.007
+        weight: 1
+      - path: armature/master/spine1/spine2/arm_L/arm_L.005/arm_L.006/arm_L.007/arm_L.008
+        weight: 1
+      - path: armature/master/spine1/spine2/arm_L/arm_L.005/arm_L.006/arm_L.007/arm_L.008/arm_L.008_end
+        weight: 1
+      - path: armature/master/spine1/spine2/arm_L/arm_L.009
+        weight: 1
+      - path: armature/master/spine1/spine2/arm_L/arm_L.009/arm_L.010
+        weight: 1
+      - path: armature/master/spine1/spine2/arm_L/arm_L.009/arm_L.010/arm_L.011
+        weight: 1
+      - path: armature/master/spine1/spine2/arm_L/arm_L.009/arm_L.010/arm_L.011/arm_L.012
+        weight: 1
+      - path: armature/master/spine1/spine2/arm_L/arm_L.009/arm_L.010/arm_L.011/arm_L.012/arm_L.012_end
+        weight: 1
+      - path: armature/master/spine1/spine2/arm_R
+        weight: 1
+      - path: armature/master/spine1/spine2/arm_R/arm_R.001
+        weight: 1
+      - path: armature/master/spine1/spine2/arm_R/arm_R.001/arm_R.002
+        weight: 1
+      - path: armature/master/spine1/spine2/arm_R/arm_R.001/arm_R.002/arm_R.003
+        weight: 1
+      - path: armature/master/spine1/spine2/arm_R/arm_R.001/arm_R.002/arm_R.003/arm_R.004
+        weight: 1
+      - path: armature/master/spine1/spine2/arm_R/arm_R.001/arm_R.002/arm_R.003/arm_R.004/arm_R.004_end
+        weight: 1
+      - path: armature/master/spine1/spine2/arm_R/arm_R.005
+        weight: 1
+      - path: armature/master/spine1/spine2/arm_R/arm_R.005/arm_R.006
+        weight: 1
+      - path: armature/master/spine1/spine2/arm_R/arm_R.005/arm_R.006/arm_R.007
+        weight: 1
+      - path: armature/master/spine1/spine2/arm_R/arm_R.005/arm_R.006/arm_R.007/arm_R.008
+        weight: 1
+      - path: armature/master/spine1/spine2/arm_R/arm_R.005/arm_R.006/arm_R.007/arm_R.008/arm_R.008_end
+        weight: 1
+      - path: armature/master/spine1/spine2/arm_R/arm_R.009
+        weight: 1
+      - path: armature/master/spine1/spine2/arm_R/arm_R.009/arm_R.010
+        weight: 1
+      - path: armature/master/spine1/spine2/arm_R/arm_R.009/arm_R.010/arm_R.011
+        weight: 1
+      - path: armature/master/spine1/spine2/arm_R/arm_R.009/arm_R.010/arm_R.011/arm_R.012
+        weight: 1
+      - path: armature/master/spine1/spine2/arm_R/arm_R.009/arm_R.010/arm_R.011/arm_R.012/arm_R.012_end
+        weight: 1
+      - path: armature/master/spine1/spine2/neck1
+        weight: 1
+      - path: armature/master/spine1/spine2/neck1/neck2
+        weight: 1
+      - path: armature/master/spine1/spine2/neck1/neck2/neck3
+        weight: 1
+      - path: armature/master/spine1/spine2/neck1/neck2/neck3/neck4
+        weight: 1
+      - path: armature/master/spine1/spine2/neck1/neck2/neck3/neck4/neck5
+        weight: 1
+      - path: armature/master/spine1/spine2/neck1/neck2/neck3/neck4/neck5/head1
+        weight: 1
+      - path: armature/master/spine1/spine2/neck1/neck2/neck3/neck4/neck5/head1/head2
+        weight: 1
+      - path: armature/master/spine1/spine2/neck1/neck2/neck3/neck4/neck5/head1/head2/beak1
+        weight: 1
+      - path: armature/master/spine1/spine2/neck1/neck2/neck3/neck4/neck5/head1/head2/beak1/beak1_end
+        weight: 1
+      - path: armature/master/spine1/spine2/neck1/neck2/neck3/neck4/neck5/head1/head2/mouth
+        weight: 1
+      - path: armature/master/spine1/spine2/neck1/neck2/neck3/neck4/neck5/head1/head2/mouth/beak2
+        weight: 1
+      - path: armature/master/spine1/spine2/neck1/neck2/neck3/neck4/neck5/head1/head2/mouth/beak2/beak2_end
+        weight: 1
+      - path: armature/master/waist_L
+        weight: 1
+      - path: armature/master/waist_L/leg1_L
+        weight: 1
+      - path: armature/master/waist_L/leg1_L/leg2_L
+        weight: 1
+      - path: armature/master/waist_L/leg1_L/leg2_L/foot1_L
+        weight: 1
+      - path: armature/master/waist_L/leg1_L/leg2_L/foot1_L/foot2_L
+        weight: 1
+      - path: armature/master/waist_L/leg1_L/leg2_L/foot1_L/foot2_L/foot3_L
+        weight: 1
+      - path: armature/master/waist_L/leg1_L/leg2_L/foot1_L/foot2_L/foot3_L/foot3_L_end
+        weight: 1
+      - path: armature/master/waist_L/leg1_L/leg2_L/foot4_L
+        weight: 1
+      - path: armature/master/waist_L/leg1_L/leg2_L/foot4_L/foot5_L
+        weight: 1
+      - path: armature/master/waist_L/leg1_L/leg2_L/foot4_L/foot5_L/foot6_L
+        weight: 1
+      - path: armature/master/waist_L/leg1_L/leg2_L/foot4_L/foot5_L/foot6_L/foot6_L_end
+        weight: 1
+      - path: armature/master/waist_R
+        weight: 1
+      - path: armature/master/waist_R/leg1_R
+        weight: 1
+      - path: armature/master/waist_R/leg1_R/leg2_R
+        weight: 1
+      - path: armature/master/waist_R/leg1_R/leg2_R/foot1_R
+        weight: 1
+      - path: armature/master/waist_R/leg1_R/leg2_R/foot1_R/foot2_R
+        weight: 1
+      - path: armature/master/waist_R/leg1_R/leg2_R/foot1_R/foot2_R/foot3_R
+        weight: 1
+      - path: armature/master/waist_R/leg1_R/leg2_R/foot1_R/foot2_R/foot3_R/foot3_R_end
+        weight: 1
+      - path: armature/master/waist_R/leg1_R/leg2_R/foot4_R
+        weight: 1
+      - path: armature/master/waist_R/leg1_R/leg2_R/foot4_R/foot5_R
+        weight: 1
+      - path: armature/master/waist_R/leg1_R/leg2_R/foot4_R/foot5_R/foot6_R
+        weight: 1
+      - path: armature/master/waist_R/leg1_R/leg2_R/foot4_R/foot5_R/foot6_R/foot6_R_end
+        weight: 1
+      - path: body
+        weight: 1
+      - path: body.001
+        weight: 1
+      - path: wing
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: body.001|walk
+      takeName: body.001|walk
+      firstFrame: 0
+      lastFrame: 1
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: armature
+        weight: 1
+      - path: armature/master
+        weight: 1
+      - path: armature/master/spine-1
+        weight: 1
+      - path: armature/master/spine-1/spine-2
+        weight: 1
+      - path: armature/master/spine-1/spine-2/tale1
+        weight: 1
+      - path: armature/master/spine-1/spine-2/tale1/tale2
+        weight: 1
+      - path: armature/master/spine-1/spine-2/tale1/tale2/tale2_end
+        weight: 1
+      - path: armature/master/spine1
+        weight: 1
+      - path: armature/master/spine1/spine2
+        weight: 1
+      - path: armature/master/spine1/spine2/arm_L
+        weight: 1
+      - path: armature/master/spine1/spine2/arm_L/arm_L.001
+        weight: 1
+      - path: armature/master/spine1/spine2/arm_L/arm_L.001/arm_L.002
+        weight: 1
+      - path: armature/master/spine1/spine2/arm_L/arm_L.001/arm_L.002/arm_L.003
+        weight: 1
+      - path: armature/master/spine1/spine2/arm_L/arm_L.001/arm_L.002/arm_L.003/arm_L.004
+        weight: 1
+      - path: armature/master/spine1/spine2/arm_L/arm_L.001/arm_L.002/arm_L.003/arm_L.004/arm_L.004_end
+        weight: 1
+      - path: armature/master/spine1/spine2/arm_L/arm_L.005
+        weight: 1
+      - path: armature/master/spine1/spine2/arm_L/arm_L.005/arm_L.006
+        weight: 1
+      - path: armature/master/spine1/spine2/arm_L/arm_L.005/arm_L.006/arm_L.007
+        weight: 1
+      - path: armature/master/spine1/spine2/arm_L/arm_L.005/arm_L.006/arm_L.007/arm_L.008
+        weight: 1
+      - path: armature/master/spine1/spine2/arm_L/arm_L.005/arm_L.006/arm_L.007/arm_L.008/arm_L.008_end
+        weight: 1
+      - path: armature/master/spine1/spine2/arm_L/arm_L.009
+        weight: 1
+      - path: armature/master/spine1/spine2/arm_L/arm_L.009/arm_L.010
+        weight: 1
+      - path: armature/master/spine1/spine2/arm_L/arm_L.009/arm_L.010/arm_L.011
+        weight: 1
+      - path: armature/master/spine1/spine2/arm_L/arm_L.009/arm_L.010/arm_L.011/arm_L.012
+        weight: 1
+      - path: armature/master/spine1/spine2/arm_L/arm_L.009/arm_L.010/arm_L.011/arm_L.012/arm_L.012_end
+        weight: 1
+      - path: armature/master/spine1/spine2/arm_R
+        weight: 1
+      - path: armature/master/spine1/spine2/arm_R/arm_R.001
+        weight: 1
+      - path: armature/master/spine1/spine2/arm_R/arm_R.001/arm_R.002
+        weight: 1
+      - path: armature/master/spine1/spine2/arm_R/arm_R.001/arm_R.002/arm_R.003
+        weight: 1
+      - path: armature/master/spine1/spine2/arm_R/arm_R.001/arm_R.002/arm_R.003/arm_R.004
+        weight: 1
+      - path: armature/master/spine1/spine2/arm_R/arm_R.001/arm_R.002/arm_R.003/arm_R.004/arm_R.004_end
+        weight: 1
+      - path: armature/master/spine1/spine2/arm_R/arm_R.005
+        weight: 1
+      - path: armature/master/spine1/spine2/arm_R/arm_R.005/arm_R.006
+        weight: 1
+      - path: armature/master/spine1/spine2/arm_R/arm_R.005/arm_R.006/arm_R.007
+        weight: 1
+      - path: armature/master/spine1/spine2/arm_R/arm_R.005/arm_R.006/arm_R.007/arm_R.008
+        weight: 1
+      - path: armature/master/spine1/spine2/arm_R/arm_R.005/arm_R.006/arm_R.007/arm_R.008/arm_R.008_end
+        weight: 1
+      - path: armature/master/spine1/spine2/arm_R/arm_R.009
+        weight: 1
+      - path: armature/master/spine1/spine2/arm_R/arm_R.009/arm_R.010
+        weight: 1
+      - path: armature/master/spine1/spine2/arm_R/arm_R.009/arm_R.010/arm_R.011
+        weight: 1
+      - path: armature/master/spine1/spine2/arm_R/arm_R.009/arm_R.010/arm_R.011/arm_R.012
+        weight: 1
+      - path: armature/master/spine1/spine2/arm_R/arm_R.009/arm_R.010/arm_R.011/arm_R.012/arm_R.012_end
+        weight: 1
+      - path: armature/master/spine1/spine2/neck1
+        weight: 1
+      - path: armature/master/spine1/spine2/neck1/neck2
+        weight: 1
+      - path: armature/master/spine1/spine2/neck1/neck2/neck3
+        weight: 1
+      - path: armature/master/spine1/spine2/neck1/neck2/neck3/neck4
+        weight: 1
+      - path: armature/master/spine1/spine2/neck1/neck2/neck3/neck4/neck5
+        weight: 1
+      - path: armature/master/spine1/spine2/neck1/neck2/neck3/neck4/neck5/head1
+        weight: 1
+      - path: armature/master/spine1/spine2/neck1/neck2/neck3/neck4/neck5/head1/head2
+        weight: 1
+      - path: armature/master/spine1/spine2/neck1/neck2/neck3/neck4/neck5/head1/head2/beak1
+        weight: 1
+      - path: armature/master/spine1/spine2/neck1/neck2/neck3/neck4/neck5/head1/head2/beak1/beak1_end
+        weight: 1
+      - path: armature/master/spine1/spine2/neck1/neck2/neck3/neck4/neck5/head1/head2/mouth
+        weight: 1
+      - path: armature/master/spine1/spine2/neck1/neck2/neck3/neck4/neck5/head1/head2/mouth/beak2
+        weight: 1
+      - path: armature/master/spine1/spine2/neck1/neck2/neck3/neck4/neck5/head1/head2/mouth/beak2/beak2_end
+        weight: 1
+      - path: armature/master/waist_L
+        weight: 1
+      - path: armature/master/waist_L/leg1_L
+        weight: 1
+      - path: armature/master/waist_L/leg1_L/leg2_L
+        weight: 1
+      - path: armature/master/waist_L/leg1_L/leg2_L/foot1_L
+        weight: 1
+      - path: armature/master/waist_L/leg1_L/leg2_L/foot1_L/foot2_L
+        weight: 1
+      - path: armature/master/waist_L/leg1_L/leg2_L/foot1_L/foot2_L/foot3_L
+        weight: 1
+      - path: armature/master/waist_L/leg1_L/leg2_L/foot1_L/foot2_L/foot3_L/foot3_L_end
+        weight: 1
+      - path: armature/master/waist_L/leg1_L/leg2_L/foot4_L
+        weight: 1
+      - path: armature/master/waist_L/leg1_L/leg2_L/foot4_L/foot5_L
+        weight: 1
+      - path: armature/master/waist_L/leg1_L/leg2_L/foot4_L/foot5_L/foot6_L
+        weight: 1
+      - path: armature/master/waist_L/leg1_L/leg2_L/foot4_L/foot5_L/foot6_L/foot6_L_end
+        weight: 1
+      - path: armature/master/waist_R
+        weight: 1
+      - path: armature/master/waist_R/leg1_R
+        weight: 1
+      - path: armature/master/waist_R/leg1_R/leg2_R
+        weight: 1
+      - path: armature/master/waist_R/leg1_R/leg2_R/foot1_R
+        weight: 1
+      - path: armature/master/waist_R/leg1_R/leg2_R/foot1_R/foot2_R
+        weight: 1
+      - path: armature/master/waist_R/leg1_R/leg2_R/foot1_R/foot2_R/foot3_R
+        weight: 1
+      - path: armature/master/waist_R/leg1_R/leg2_R/foot1_R/foot2_R/foot3_R/foot3_R_end
+        weight: 1
+      - path: armature/master/waist_R/leg1_R/leg2_R/foot4_R
+        weight: 1
+      - path: armature/master/waist_R/leg1_R/leg2_R/foot4_R/foot5_R
+        weight: 1
+      - path: armature/master/waist_R/leg1_R/leg2_R/foot4_R/foot5_R/foot6_R
+        weight: 1
+      - path: armature/master/waist_R/leg1_R/leg2_R/foot4_R/foot5_R/foot6_R/foot6_R_end
+        weight: 1
+      - path: body
+        weight: 1
+      - path: body.001
+        weight: 1
+      - path: wing
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: wing|walk
+      takeName: wing|walk
+      firstFrame: 0
+      lastFrame: 1
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: armature
+        weight: 1
+      - path: armature/master
+        weight: 1
+      - path: armature/master/spine-1
+        weight: 1
+      - path: armature/master/spine-1/spine-2
+        weight: 1
+      - path: armature/master/spine-1/spine-2/tale1
+        weight: 1
+      - path: armature/master/spine-1/spine-2/tale1/tale2
+        weight: 1
+      - path: armature/master/spine-1/spine-2/tale1/tale2/tale2_end
+        weight: 1
+      - path: armature/master/spine1
+        weight: 1
+      - path: armature/master/spine1/spine2
+        weight: 1
+      - path: armature/master/spine1/spine2/arm_L
+        weight: 1
+      - path: armature/master/spine1/spine2/arm_L/arm_L.001
+        weight: 1
+      - path: armature/master/spine1/spine2/arm_L/arm_L.001/arm_L.002
+        weight: 1
+      - path: armature/master/spine1/spine2/arm_L/arm_L.001/arm_L.002/arm_L.003
+        weight: 1
+      - path: armature/master/spine1/spine2/arm_L/arm_L.001/arm_L.002/arm_L.003/arm_L.004
+        weight: 1
+      - path: armature/master/spine1/spine2/arm_L/arm_L.001/arm_L.002/arm_L.003/arm_L.004/arm_L.004_end
+        weight: 1
+      - path: armature/master/spine1/spine2/arm_L/arm_L.005
+        weight: 1
+      - path: armature/master/spine1/spine2/arm_L/arm_L.005/arm_L.006
+        weight: 1
+      - path: armature/master/spine1/spine2/arm_L/arm_L.005/arm_L.006/arm_L.007
+        weight: 1
+      - path: armature/master/spine1/spine2/arm_L/arm_L.005/arm_L.006/arm_L.007/arm_L.008
+        weight: 1
+      - path: armature/master/spine1/spine2/arm_L/arm_L.005/arm_L.006/arm_L.007/arm_L.008/arm_L.008_end
+        weight: 1
+      - path: armature/master/spine1/spine2/arm_L/arm_L.009
+        weight: 1
+      - path: armature/master/spine1/spine2/arm_L/arm_L.009/arm_L.010
+        weight: 1
+      - path: armature/master/spine1/spine2/arm_L/arm_L.009/arm_L.010/arm_L.011
+        weight: 1
+      - path: armature/master/spine1/spine2/arm_L/arm_L.009/arm_L.010/arm_L.011/arm_L.012
+        weight: 1
+      - path: armature/master/spine1/spine2/arm_L/arm_L.009/arm_L.010/arm_L.011/arm_L.012/arm_L.012_end
+        weight: 1
+      - path: armature/master/spine1/spine2/arm_R
+        weight: 1
+      - path: armature/master/spine1/spine2/arm_R/arm_R.001
+        weight: 1
+      - path: armature/master/spine1/spine2/arm_R/arm_R.001/arm_R.002
+        weight: 1
+      - path: armature/master/spine1/spine2/arm_R/arm_R.001/arm_R.002/arm_R.003
+        weight: 1
+      - path: armature/master/spine1/spine2/arm_R/arm_R.001/arm_R.002/arm_R.003/arm_R.004
+        weight: 1
+      - path: armature/master/spine1/spine2/arm_R/arm_R.001/arm_R.002/arm_R.003/arm_R.004/arm_R.004_end
+        weight: 1
+      - path: armature/master/spine1/spine2/arm_R/arm_R.005
+        weight: 1
+      - path: armature/master/spine1/spine2/arm_R/arm_R.005/arm_R.006
+        weight: 1
+      - path: armature/master/spine1/spine2/arm_R/arm_R.005/arm_R.006/arm_R.007
+        weight: 1
+      - path: armature/master/spine1/spine2/arm_R/arm_R.005/arm_R.006/arm_R.007/arm_R.008
+        weight: 1
+      - path: armature/master/spine1/spine2/arm_R/arm_R.005/arm_R.006/arm_R.007/arm_R.008/arm_R.008_end
+        weight: 1
+      - path: armature/master/spine1/spine2/arm_R/arm_R.009
+        weight: 1
+      - path: armature/master/spine1/spine2/arm_R/arm_R.009/arm_R.010
+        weight: 1
+      - path: armature/master/spine1/spine2/arm_R/arm_R.009/arm_R.010/arm_R.011
+        weight: 1
+      - path: armature/master/spine1/spine2/arm_R/arm_R.009/arm_R.010/arm_R.011/arm_R.012
+        weight: 1
+      - path: armature/master/spine1/spine2/arm_R/arm_R.009/arm_R.010/arm_R.011/arm_R.012/arm_R.012_end
+        weight: 1
+      - path: armature/master/spine1/spine2/neck1
+        weight: 1
+      - path: armature/master/spine1/spine2/neck1/neck2
+        weight: 1
+      - path: armature/master/spine1/spine2/neck1/neck2/neck3
+        weight: 1
+      - path: armature/master/spine1/spine2/neck1/neck2/neck3/neck4
+        weight: 1
+      - path: armature/master/spine1/spine2/neck1/neck2/neck3/neck4/neck5
+        weight: 1
+      - path: armature/master/spine1/spine2/neck1/neck2/neck3/neck4/neck5/head1
+        weight: 1
+      - path: armature/master/spine1/spine2/neck1/neck2/neck3/neck4/neck5/head1/head2
+        weight: 1
+      - path: armature/master/spine1/spine2/neck1/neck2/neck3/neck4/neck5/head1/head2/beak1
+        weight: 1
+      - path: armature/master/spine1/spine2/neck1/neck2/neck3/neck4/neck5/head1/head2/beak1/beak1_end
+        weight: 1
+      - path: armature/master/spine1/spine2/neck1/neck2/neck3/neck4/neck5/head1/head2/mouth
+        weight: 1
+      - path: armature/master/spine1/spine2/neck1/neck2/neck3/neck4/neck5/head1/head2/mouth/beak2
+        weight: 1
+      - path: armature/master/spine1/spine2/neck1/neck2/neck3/neck4/neck5/head1/head2/mouth/beak2/beak2_end
+        weight: 1
+      - path: armature/master/waist_L
+        weight: 1
+      - path: armature/master/waist_L/leg1_L
+        weight: 1
+      - path: armature/master/waist_L/leg1_L/leg2_L
+        weight: 1
+      - path: armature/master/waist_L/leg1_L/leg2_L/foot1_L
+        weight: 1
+      - path: armature/master/waist_L/leg1_L/leg2_L/foot1_L/foot2_L
+        weight: 1
+      - path: armature/master/waist_L/leg1_L/leg2_L/foot1_L/foot2_L/foot3_L
+        weight: 1
+      - path: armature/master/waist_L/leg1_L/leg2_L/foot1_L/foot2_L/foot3_L/foot3_L_end
+        weight: 1
+      - path: armature/master/waist_L/leg1_L/leg2_L/foot4_L
+        weight: 1
+      - path: armature/master/waist_L/leg1_L/leg2_L/foot4_L/foot5_L
+        weight: 1
+      - path: armature/master/waist_L/leg1_L/leg2_L/foot4_L/foot5_L/foot6_L
+        weight: 1
+      - path: armature/master/waist_L/leg1_L/leg2_L/foot4_L/foot5_L/foot6_L/foot6_L_end
+        weight: 1
+      - path: armature/master/waist_R
+        weight: 1
+      - path: armature/master/waist_R/leg1_R
+        weight: 1
+      - path: armature/master/waist_R/leg1_R/leg2_R
+        weight: 1
+      - path: armature/master/waist_R/leg1_R/leg2_R/foot1_R
+        weight: 1
+      - path: armature/master/waist_R/leg1_R/leg2_R/foot1_R/foot2_R
+        weight: 1
+      - path: armature/master/waist_R/leg1_R/leg2_R/foot1_R/foot2_R/foot3_R
+        weight: 1
+      - path: armature/master/waist_R/leg1_R/leg2_R/foot1_R/foot2_R/foot3_R/foot3_R_end
+        weight: 1
+      - path: armature/master/waist_R/leg1_R/leg2_R/foot4_R
+        weight: 1
+      - path: armature/master/waist_R/leg1_R/leg2_R/foot4_R/foot5_R
+        weight: 1
+      - path: armature/master/waist_R/leg1_R/leg2_R/foot4_R/foot5_R/foot6_R
+        weight: 1
+      - path: armature/master/waist_R/leg1_R/leg2_R/foot4_R/foot5_R/foot6_R/foot6_R_end
+        weight: 1
+      - path: body
+        weight: 1
+      - path: body.001
+        weight: 1
+      - path: wing
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: body|walk
+      takeName: body|walk
+      firstFrame: 0
+      lastFrame: 1
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: armature
+        weight: 1
+      - path: armature/master
+        weight: 1
+      - path: armature/master/spine-1
+        weight: 1
+      - path: armature/master/spine-1/spine-2
+        weight: 1
+      - path: armature/master/spine-1/spine-2/tale1
+        weight: 1
+      - path: armature/master/spine-1/spine-2/tale1/tale2
+        weight: 1
+      - path: armature/master/spine-1/spine-2/tale1/tale2/tale2_end
+        weight: 1
+      - path: armature/master/spine1
+        weight: 1
+      - path: armature/master/spine1/spine2
+        weight: 1
+      - path: armature/master/spine1/spine2/arm_L
+        weight: 1
+      - path: armature/master/spine1/spine2/arm_L/arm_L.001
+        weight: 1
+      - path: armature/master/spine1/spine2/arm_L/arm_L.001/arm_L.002
+        weight: 1
+      - path: armature/master/spine1/spine2/arm_L/arm_L.001/arm_L.002/arm_L.003
+        weight: 1
+      - path: armature/master/spine1/spine2/arm_L/arm_L.001/arm_L.002/arm_L.003/arm_L.004
+        weight: 1
+      - path: armature/master/spine1/spine2/arm_L/arm_L.001/arm_L.002/arm_L.003/arm_L.004/arm_L.004_end
+        weight: 1
+      - path: armature/master/spine1/spine2/arm_L/arm_L.005
+        weight: 1
+      - path: armature/master/spine1/spine2/arm_L/arm_L.005/arm_L.006
+        weight: 1
+      - path: armature/master/spine1/spine2/arm_L/arm_L.005/arm_L.006/arm_L.007
+        weight: 1
+      - path: armature/master/spine1/spine2/arm_L/arm_L.005/arm_L.006/arm_L.007/arm_L.008
+        weight: 1
+      - path: armature/master/spine1/spine2/arm_L/arm_L.005/arm_L.006/arm_L.007/arm_L.008/arm_L.008_end
+        weight: 1
+      - path: armature/master/spine1/spine2/arm_L/arm_L.009
+        weight: 1
+      - path: armature/master/spine1/spine2/arm_L/arm_L.009/arm_L.010
+        weight: 1
+      - path: armature/master/spine1/spine2/arm_L/arm_L.009/arm_L.010/arm_L.011
+        weight: 1
+      - path: armature/master/spine1/spine2/arm_L/arm_L.009/arm_L.010/arm_L.011/arm_L.012
+        weight: 1
+      - path: armature/master/spine1/spine2/arm_L/arm_L.009/arm_L.010/arm_L.011/arm_L.012/arm_L.012_end
+        weight: 1
+      - path: armature/master/spine1/spine2/arm_R
+        weight: 1
+      - path: armature/master/spine1/spine2/arm_R/arm_R.001
+        weight: 1
+      - path: armature/master/spine1/spine2/arm_R/arm_R.001/arm_R.002
+        weight: 1
+      - path: armature/master/spine1/spine2/arm_R/arm_R.001/arm_R.002/arm_R.003
+        weight: 1
+      - path: armature/master/spine1/spine2/arm_R/arm_R.001/arm_R.002/arm_R.003/arm_R.004
+        weight: 1
+      - path: armature/master/spine1/spine2/arm_R/arm_R.001/arm_R.002/arm_R.003/arm_R.004/arm_R.004_end
+        weight: 1
+      - path: armature/master/spine1/spine2/arm_R/arm_R.005
+        weight: 1
+      - path: armature/master/spine1/spine2/arm_R/arm_R.005/arm_R.006
+        weight: 1
+      - path: armature/master/spine1/spine2/arm_R/arm_R.005/arm_R.006/arm_R.007
+        weight: 1
+      - path: armature/master/spine1/spine2/arm_R/arm_R.005/arm_R.006/arm_R.007/arm_R.008
+        weight: 1
+      - path: armature/master/spine1/spine2/arm_R/arm_R.005/arm_R.006/arm_R.007/arm_R.008/arm_R.008_end
+        weight: 1
+      - path: armature/master/spine1/spine2/arm_R/arm_R.009
+        weight: 1
+      - path: armature/master/spine1/spine2/arm_R/arm_R.009/arm_R.010
+        weight: 1
+      - path: armature/master/spine1/spine2/arm_R/arm_R.009/arm_R.010/arm_R.011
+        weight: 1
+      - path: armature/master/spine1/spine2/arm_R/arm_R.009/arm_R.010/arm_R.011/arm_R.012
+        weight: 1
+      - path: armature/master/spine1/spine2/arm_R/arm_R.009/arm_R.010/arm_R.011/arm_R.012/arm_R.012_end
+        weight: 1
+      - path: armature/master/spine1/spine2/neck1
+        weight: 1
+      - path: armature/master/spine1/spine2/neck1/neck2
+        weight: 1
+      - path: armature/master/spine1/spine2/neck1/neck2/neck3
+        weight: 1
+      - path: armature/master/spine1/spine2/neck1/neck2/neck3/neck4
+        weight: 1
+      - path: armature/master/spine1/spine2/neck1/neck2/neck3/neck4/neck5
+        weight: 1
+      - path: armature/master/spine1/spine2/neck1/neck2/neck3/neck4/neck5/head1
+        weight: 1
+      - path: armature/master/spine1/spine2/neck1/neck2/neck3/neck4/neck5/head1/head2
+        weight: 1
+      - path: armature/master/spine1/spine2/neck1/neck2/neck3/neck4/neck5/head1/head2/beak1
+        weight: 1
+      - path: armature/master/spine1/spine2/neck1/neck2/neck3/neck4/neck5/head1/head2/beak1/beak1_end
+        weight: 1
+      - path: armature/master/spine1/spine2/neck1/neck2/neck3/neck4/neck5/head1/head2/mouth
+        weight: 1
+      - path: armature/master/spine1/spine2/neck1/neck2/neck3/neck4/neck5/head1/head2/mouth/beak2
+        weight: 1
+      - path: armature/master/spine1/spine2/neck1/neck2/neck3/neck4/neck5/head1/head2/mouth/beak2/beak2_end
+        weight: 1
+      - path: armature/master/waist_L
+        weight: 1
+      - path: armature/master/waist_L/leg1_L
+        weight: 1
+      - path: armature/master/waist_L/leg1_L/leg2_L
+        weight: 1
+      - path: armature/master/waist_L/leg1_L/leg2_L/foot1_L
+        weight: 1
+      - path: armature/master/waist_L/leg1_L/leg2_L/foot1_L/foot2_L
+        weight: 1
+      - path: armature/master/waist_L/leg1_L/leg2_L/foot1_L/foot2_L/foot3_L
+        weight: 1
+      - path: armature/master/waist_L/leg1_L/leg2_L/foot1_L/foot2_L/foot3_L/foot3_L_end
+        weight: 1
+      - path: armature/master/waist_L/leg1_L/leg2_L/foot4_L
+        weight: 1
+      - path: armature/master/waist_L/leg1_L/leg2_L/foot4_L/foot5_L
+        weight: 1
+      - path: armature/master/waist_L/leg1_L/leg2_L/foot4_L/foot5_L/foot6_L
+        weight: 1
+      - path: armature/master/waist_L/leg1_L/leg2_L/foot4_L/foot5_L/foot6_L/foot6_L_end
+        weight: 1
+      - path: armature/master/waist_R
+        weight: 1
+      - path: armature/master/waist_R/leg1_R
+        weight: 1
+      - path: armature/master/waist_R/leg1_R/leg2_R
+        weight: 1
+      - path: armature/master/waist_R/leg1_R/leg2_R/foot1_R
+        weight: 1
+      - path: armature/master/waist_R/leg1_R/leg2_R/foot1_R/foot2_R
+        weight: 1
+      - path: armature/master/waist_R/leg1_R/leg2_R/foot1_R/foot2_R/foot3_R
+        weight: 1
+      - path: armature/master/waist_R/leg1_R/leg2_R/foot1_R/foot2_R/foot3_R/foot3_R_end
+        weight: 1
+      - path: armature/master/waist_R/leg1_R/leg2_R/foot4_R
+        weight: 1
+      - path: armature/master/waist_R/leg1_R/leg2_R/foot4_R/foot5_R
+        weight: 1
+      - path: armature/master/waist_R/leg1_R/leg2_R/foot4_R/foot5_R/foot6_R
+        weight: 1
+      - path: armature/master/waist_R/leg1_R/leg2_R/foot4_R/foot5_R/foot6_R/foot6_R_end
+        weight: 1
+      - path: body
+        weight: 1
+      - path: body.001
+        weight: 1
+      - path: wing
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
