@@ -2,12 +2,18 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class GrassesCtrl : MonoBehaviour
+public class GrassesCtrl : StageObjectCtrl
 {
 	public Transform[] _grasses;
 
 
 	private float m_Time;
+
+
+	public override void Initialize (GetSpeed getSpeed)
+	{
+		base.Initialize (getSpeed);
+	}
 
 
 	private void Update ()
@@ -20,6 +26,6 @@ public class GrassesCtrl : MonoBehaviour
 			grass.localPosition = position;
 		}
 
-		m_Time = Mathf.Repeat (m_Time + 0.03f, length);
+		m_Time = Mathf.Repeat (m_Time + getSpeed.Invoke () * 0.1f * 60.0f * Time.deltaTime, length);
 	}
 }
