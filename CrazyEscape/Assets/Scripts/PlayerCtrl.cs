@@ -213,7 +213,7 @@ public class PlayerCtrl : MonoBehaviour
 						m_OnHitCorn.Invoke ();
 					}
 				}
-			} else if (item is RockCtrl) {
+			} else {
 				if (m_Depth > m_DepthMin) {
 					moveDepth (m_Depth - 1);
 					if (m_OnHitRock != null) {

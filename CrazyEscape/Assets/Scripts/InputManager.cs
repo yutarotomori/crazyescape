@@ -8,6 +8,13 @@ public class InputManager : Singleton<InputManager>
 {
 	public delegate void OnInputEvent ();
 
+
+	private TouchManager m_TouchManager {
+		get {
+			return TouchManager.GetInstance ();
+		}
+	}
+
 	private event OnInputEvent m_OnInputLeft;
 	private event OnInputEvent m_OnInputRight;
 	private event OnInputEvent m_OnInputJump;
@@ -104,6 +111,12 @@ public class InputManager : Singleton<InputManager>
 
 	private void Update ()
 	{
+		CheckButton ();
+		CheckTouch ();
+	}
+
+	private void CheckButton ()
+	{
 		if (Input.GetKeyDown (KeyCode.A) || Input.GetKeyDown (KeyCode.LeftArrow)) {
 			m_OnInputLeft.Invoke ();
 		}
@@ -112,6 +125,34 @@ public class InputManager : Singleton<InputManager>
 		}
 		if (Input.GetKeyDown (KeyCode.W) || Input.GetKeyDown (KeyCode.UpArrow) || Input.GetKeyDown (KeyCode.Space)) {
 			m_OnInputJump.Invoke ();
+		}
+	}
+
+
+	private bool m_IsSwipe;
+	private int m_FingerID;
+	private void CheckTouch ()
+	{
+		if (m_IsSwipe) {
+			if (m_TouchManager.EqualPhase (TouchPhase.Ended, m_FingerID)) {
+				m_IsSwipe = false;
+			}
+		} else {
+			if (m_TouchManager.EqualPhase (TouchPhase.Moved, out m_FingerID)) {
+				Debug.Log ("S-Dir:" + m_TouchManager.SwipeDirection ().normalized);
+				if (m_TouchManager.Swipe4Direction (m_FingerID).x <= -1.0f) {
+					m_OnInputLeft.Invoke ();
+					m_IsSwipe = true;
+				}
+				if (m_TouchManager.Swipe4Direction ().x >= 1.0f) {
+					m_OnInputRight.Invoke ();
+					m_IsSwipe = true;
+				}
+				if (m_TouchManager.Swipe4Direction ().y >= 1.0f) {
+					m_OnInputJump.Invoke ();
+					m_IsSwipe = true;
+				}
+			}
 		}
 	}
 }

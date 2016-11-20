@@ -6,7 +6,7 @@ public class ItemCtrl : StageObjectCtrl
 {
 	protected virtual void Update ()
 	{
-		transform.Translate (Vector3.forward * getSpeed.Invoke () * -1.0f);
+		transform.Translate (Vector3.forward * getSpeed.Invoke () * -1.0f, Space.World);
 	}
 
 

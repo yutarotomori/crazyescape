@@ -11,7 +11,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43e6ade04bff54345a2017457b87ad36, type: 3}
   m_Name: ResourcePath
   m_EditorClassIdentifier: 
-  m_Ostrich: Corn
-  m_Enemy: Wolf
-  m_Rock: Rock
-  m_Corn: Corn
+  _ostrich:
+    _asset: {fileID: 1899673828699378, guid: e0c5a8a8fd0fb4ae5b1bb0a30e0f6f16, type: 2}
+    _path: Player
+  _enemy:
+    _asset: {fileID: 1515229689849548, guid: d0aa84baa1c3b4120997eac022d9b2c5, type: 2}
+    _path: Wolf
+  _rock:
+    _asset: {fileID: 1396850235212118, guid: bc779268a85504ab596ff6c5de96b01f, type: 2}
+    _path: Rock
+  _corn:
+    _asset: {fileID: 1495424464179606, guid: 8e0937d7fa3414126b35f43673a38de1, type: 2}
+    _path: Corn
+  _logs:
+    _asset: {fileID: 1254556413884980, guid: 7a28ad53be4c64b8c897fb0ae73e876b, type: 2}
+    _path: Logs
