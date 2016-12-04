@@ -22,9 +22,9 @@ public class ItemSpawnerCtrl : StageObjectCtrl
 	private List<GameObject> m_LogsPool;
 	private bool m_WasInitialized;
 
-	public override void Initialize (GetSpeed getSpeed)
+	public override void Initialize (GetSpeed getSpeed, GetActiveCondition getActiveCondition)
 	{
-		base.Initialize (getSpeed);
+		base.Initialize (getSpeed, getActiveCondition);
 
 		m_WasInitialized = true;
 	}
@@ -54,7 +54,7 @@ public class ItemSpawnerCtrl : StageObjectCtrl
 
 	private IEnumerator SpawnAsync ()
 	{
-		while (!m_WasInitialized) {
+		while (!m_WasInitialized || !getActiveCondition.Invoke()) {
 			yield return 0;
 		}
 
@@ -88,7 +88,7 @@ public class ItemSpawnerCtrl : StageObjectCtrl
 
 		if (instance == null) {
 			instance = Instantiate<GameObject> (resource);
-			instance.GetComponent<ItemCtrl> ().Initialize (getSpeed);
+			instance.GetComponent<ItemCtrl> ().Initialize (getSpeed, getActiveCondition);
 			pool.Add (instance);
 		}
 

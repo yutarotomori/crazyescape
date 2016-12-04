@@ -10,9 +10,9 @@ public class GrassesCtrl : StageObjectCtrl
 	private float m_Time;
 
 
-	public override void Initialize (GetSpeed getSpeed)
+	public override void Initialize (GetSpeed getSpeed, GetActiveCondition getActiveCondition)
 	{
-		base.Initialize (getSpeed);
+		base.Initialize (getSpeed, getActiveCondition);
 	}
 
 
