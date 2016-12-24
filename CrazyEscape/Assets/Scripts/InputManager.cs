@@ -139,11 +139,12 @@ public class InputManager : Singleton<InputManager>
 			}
 		} else {
 			if (m_TouchManager.EqualPhase (TouchPhase.Moved, out m_FingerID)) {
-				if (m_TouchManager.Swipe4Direction (m_FingerID).x <= -1.0f) {
+				if (m_TouchManager.Swipe4Direction (m_FingerID).x <= -1.0f
+				    && Mathf.Abs (m_TouchManager.Movement (m_FingerID).x) > 50.0f) {
 					m_OnInputLeft.Invoke ();
 					m_IsSwipe = true;
-				}
-				if (m_TouchManager.Swipe4Direction ().x >= 1.0f) {
+				} else if (m_TouchManager.Swipe4Direction ().x >= 1.0f
+				    && Mathf.Abs (m_TouchManager.Movement (m_FingerID).x) > 50.0f) {
 					m_OnInputRight.Invoke ();
 					m_IsSwipe = true;
 				}

@@ -26,3 +26,12 @@ MonoBehaviour:
   _logs:
     _asset: {fileID: 1254556413884980, guid: 7a28ad53be4c64b8c897fb0ae73e876b, type: 2}
     _path: Logs
+  _wing:
+    _asset: {fileID: 1665423563094172, guid: 2edebd582f455472896108a22dd4955f, type: 2}
+    _path: Wing
+  _BGM_Stage:
+    _asset: {fileID: 8300000, guid: f034602777a0143fb82b56961aa09b6d, type: 3}
+    _path: Audios/CLAGYESCAPE_LOOP
+  _BTM_GameOver:
+    _asset: {fileID: 8300000, guid: 0d6fdd832f58945c2ac15635cd86709e, type: 3}
+    _path: Audios/gameover

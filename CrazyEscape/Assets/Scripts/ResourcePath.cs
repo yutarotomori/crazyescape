@@ -12,7 +12,7 @@ public class ResourcePath : ScriptableObject
 	[System.Serializable]
 	public struct ResourceAsset
 	{
-		public GameObject _asset;
+		public Object _asset;
 		public string _path;
 	}
 
@@ -59,12 +59,33 @@ public class ResourcePath : ScriptableObject
 		}
 	}
 
+	static public string wing {
+		get {
+			return instance._wing._path;
+		}
+	}
+
+	static public string bgm_stage {
+		get {
+			return instance._BGM_Stage._path;
+		}
+	}
+
+	static public string bgm_gameOver {
+		get {
+			return instance._BTM_GameOver._path;
+		}
+	}
+
 
 	public ResourceAsset _ostrich;
 	public ResourceAsset _enemy;
 	public ResourceAsset _rock;
 	public ResourceAsset _corn;
 	public ResourceAsset _logs;
+	public ResourceAsset _wing;
+	public ResourceAsset _BGM_Stage;
+	public ResourceAsset _BTM_GameOver;
 }
 
 

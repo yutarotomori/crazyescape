@@ -26,6 +26,6 @@ public class GrassesCtrl : StageObjectCtrl
 			grass.localPosition = position;
 		}
 
-		m_Time = Mathf.Repeat (m_Time + getSpeed.Invoke () * 0.1f * 60.0f * Time.deltaTime, length);
+		m_Time = Mathf.Repeat (m_Time + getSpeed.Invoke () * 0.1f * MainCtrl.fixTime, length);
 	}
 }

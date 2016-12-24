@@ -29,7 +29,7 @@ public class TitleCtrl : MonoBehaviour
 		var fromPoint = _camera.transform.position;
 		var fromAngle = _camera.transform.eulerAngles;
 
-		for (float i = 0.0f; i < 1.0f; i+=0.05f) {
+		for (float i = 0.0f; i < 1.0f; i += 0.05f) {
 			var newAngle = fromAngle;
 			newAngle.x = Mathf.LerpAngle (fromAngle.x, _stageCameraPoint.eulerAngles.x, i);
 			newAngle.y = Mathf.LerpAngle (fromAngle.y, _stageCameraPoint.eulerAngles.y, i);
